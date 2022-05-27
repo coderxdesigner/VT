@@ -20,3 +20,8 @@ body {
   background-color: var(--vt-maroon);
   color: #fff;
 }
+/*CUSTOM INPUT RADIOS*/
+.form-input-btn {
+  display: none;
+  cursor: pointer;
+}
