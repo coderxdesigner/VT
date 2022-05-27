@@ -1,0 +1,22 @@
+/* BRANDED VARIABLES */
+:root {
+  --vt-maroon: #a52651;
+  --vt-hokieStone-1s: #696c6f;
+  --vt-hokieStone-5s: #333333;
+  --font-family-sans-serif: Acherus, sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+/* BODY STYLING */
+body {
+  background-color: var(--vt-hokieStone-5s);
+  color: #fff;
+}
+/*FORM STYLING*/
+.form-title {
+  font-family: var(--font-family-sans-serif);
+  line-height: 1.6;
+}
+.theme-button-1 {
+  background-color: var(--vt-maroon);
+  color: #fff;
+}

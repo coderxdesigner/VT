@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your gift makes the difference</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- VT brand fonts -->
+    <link rel="stylesheet" href="https://www.assets.cms.vt.edu/fonts/fonts.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <!-- Custom css -->
+
+    <link rel="stylesheet" href="assets/custom.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <main class="container mt-5">
+      <div class="form-wrapper">
+        <h2 class="form-title">Your gift makes the difference.</h2>
+        <form data-name="25-100">
+          <div class="form-group">
+            <div>Select a gift amount:</div>
+            <div>
+              <input type="radio" id="value25" name="amount" value="25" />
+              <label for="value25">
+                <span>$25</span>
+              </label>
+            </div>
+            <div>
+              <input type="radio" id="value50" name="amount" value="50" />
+              <label for="value50">
+                <span>$50</span>
+              </label>
+            </div>
+            <div>
+              <input type="radio" id="value100" name="amount" value="100" />
+              <label for="value100">
+                <span>$100</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="custom_amount">Or enter a gift amount:</label>
+            <span><input type="number" min="0.00" max="10000.00" step="0.01" /></span>
+          </div>
+          <div class="form-group">
+            <label for="frequency">Gift frequency:</label>
+            <input type="radio" value="One-time" name="amount" />
+            <input type="radio" value="Monthly" name="amount" />
+          </div>
+          <button class="sign-up-btn theme-button-1" role="button">
+            <span>GIVE ONE-TIME</span>
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
