@@ -36,7 +36,8 @@ body {
   height: 50px;
   background-color: #fff;
   color: var(--vt-maroon);
-  width: 130px;
+  display: inline-block;
+  min-width: 150px;
   border: 1px solid var(--vt-maroon);
   font-weight: 600;
   position: relative;

@@ -28,53 +28,63 @@
       <div class="form-wrapper">
         <h2 class="form-title">Your gift makes the difference.</h2>
         <form data-name="25-100">
-          <div class="form-group">
-            <div>Select a gift amount:</div>
-            <div class="d-flex custom-radios money mt-3">
-              <div>
-                <input type="radio" id="value25" class="form-input-btn" name="amount" value="25" checked />
-                <label for="value25">
-                  <span>$25</span>
-                </label>
-              </div>
-              <div>
-                <input type="radio" id="value50" class="form-input-btn" name="amount" value="50" />
-                <label for="value50">
-                  <span>$50</span>
-                </label>
-              </div>
-              <div>
-                <input type="radio" id="value100" class="form-input-btn" name="amount" value="100" />
-                <label for="value100">
-                  <span>$100</span>
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="custom_amount">Or enter a gift amount:</label>
-            <span><input type="number" min="0.00" max="10000.00" step="0.01" /></span>
-          </div>
-          <div class="form-group">
-            <div>Gift frequency:</div>
-            <div class="d-flex custom-radios mt-3">
-              <div>
-                <input type="radio" id="One-time" checked class="form-input-btn" name="frequency" value="One-time" />
-                <label for="One-time">
-                  <span>One-time</span>
-                </label>
-              </div>
-              <div>
-                <input type="radio" id="Monthly" class="form-input-btn" name="frequency" value="Monthly" />
-                <label for="Monthly">
-                  <span>Monthly</span>
-                </label>
+          <div class="row">
+            <div class="col-lg">
+              <div class="form-group">
+                <div>Select a gift amount:</div>
+                <div class="d-flex custom-radios money w100 mt-3">
+                  <div>
+                    <input type="radio" id="value25" class="form-input-btn" name="amount" value="25" checked />
+                    <label for="value25">
+                      <span>$25</span>
+                    </label>
+                  </div>
+                  <div>
+                    <input type="radio" id="value50" class="form-input-btn" name="amount" value="50" />
+                    <label for="value50">
+                      <span>$50</span>
+                    </label>
+                  </div>
+                  <div>
+                    <input type="radio" id="value100" class="form-input-btn" name="amount" value="100" />
+                    <label for="value100">
+                      <span>$100</span>
+                    </label>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="col-lg">
+              <div class="form-group w100">
+                <label for="custom_amount">Or enter a gift amount:</label>
+                <div><input class="form-control w100" type="number" min="0.00" max="10000.00" step="1.00" /></div>
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="form-group">
+                <div>Gift frequency:</div>
+                <div class="d-flex custom-radios w100 mt-3">
+                  <div>
+                    <input type="radio" id="One-time" checked class="form-input-btn" name="frequency" value="One-time" />
+                    <label for="One-time">
+                      <span>One-time</span>
+                    </label>
+                  </div>
+                  <div>
+                    <input type="radio" id="Monthly" class="form-input-btn" name="frequency" value="Monthly" />
+                    <label for="Monthly">
+                      <span>Monthly</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg">
+              <button class="sign-up-btn" role="button">
+                <span>GIVE ONE-TIME</span>
+              </button>
+            </div>
           </div>
-          <button class="sign-up-btn" role="button">
-            <span>GIVE ONE-TIME</span>
-          </button>
         </form>
       </div>
     </main>
