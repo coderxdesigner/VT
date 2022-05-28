@@ -9,11 +9,11 @@
 /* BODY STYLING */
 body {
   background-color: var(--vt-hokieStone-5s);
+  font-family: var(--font-family-sans-serif);
   color: #fff;
 }
 /*FORM STYLING*/
 .form-title {
-  font-family: var(--font-family-sans-serif);
   line-height: 1.6;
 }
 .theme-button-1 {
@@ -21,7 +21,29 @@ body {
   color: #fff;
 }
 /*CUSTOM INPUT RADIOS*/
-.form-input-btn {
+.custom-radios input[type='radio'] {
   display: none;
+}
+.custom-radios input[type='radio']:checked ~ label {
+  background-color: var(--vt-hokieStone-1s);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: inset -7px 16px 9px -5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset -7px 16px 9px -5px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease-in-out;
+}
+.custom-radios label {
   cursor: pointer;
+  height: 50px;
+  background-color: #fff;
+  color: var(--vt-maroon);
+  width: 100px;
+  border: 1px solid var(--vt-maroon);
+  font-weight: 600;
+  position: relative;
+}
+.custom-radios label span {
+  position: absolute;
+  top: 12px;
+  left: 30px;
 }
