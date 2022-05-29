@@ -11,7 +11,6 @@ body {
   background-color: var(--vt-hokieStone-5s);
   font-family: var(--font-family-body);
   letter-spacing: 1px;
-  font-size: 130%;
   color: #fff;
 }
 /*FORM STYLING*/
@@ -37,10 +36,15 @@ body {
   background-color: #fff;
   color: var(--vt-maroon);
   display: inline-block;
-  min-width: 150px;
   border: 1px solid var(--vt-maroon);
   font-weight: 600;
   position: relative;
+}
+.custom-radios.money label {
+  width: 180px;
+}
+.custom-radios.freq label {
+  width: 270px;
 }
 .custom-radios label span {
   position: absolute;
@@ -52,10 +56,16 @@ body {
   top: 10px;
   left: 43px;
 }
+.form-control-input {
+  border-radius: 0;
+  height: 50px;
+  min-width: 540px;
+}
 /*CUSTOM SUBMIT BUTTON*/
 .sign-up-btn {
   display: block;
-  width: 100%;
+  min-width: 540px;
+  max-width: 100%;
   height: 50px;
   background-color: var(--vt-maroon);
   color: #fff;
@@ -64,4 +74,12 @@ body {
   cursor: pointer;
   box-shadow: 0px 0px 14px -5px rgba(255, 255, 255, 0.5);
   -webkit-box-shadow: 0px 0px 14px -5px rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 992px) {
+  .custom-radios.money label {
+    width: 120px;
+  }
+  .custom-radios.freq label {
+    width: 130px;
+  }
 }

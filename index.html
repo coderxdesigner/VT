@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    <main class="container mt-5">
+    <main class="container-fluid mt-5">
       <div class="form-wrapper">
         <h2 class="form-title">Your gift makes the difference.</h2>
         <form data-name="25-100">
@@ -32,7 +32,7 @@
             <div class="col-lg">
               <div class="form-group">
                 <div>Select a gift amount:</div>
-                <div class="d-flex custom-radios money w100 mt-3">
+                <div class="d-flex custom-radios w100 money mt-3">
                   <div>
                     <input type="radio" id="value25" class="form-input-btn" name="amount" value="25" checked />
                     <label for="value25">
@@ -56,14 +56,14 @@
             </div>
             <div class="col-lg">
               <div class="form-group w100">
-                <label for="custom_amount">Or enter a gift amount:</label>
-                <div><input class="form-control w100" type="number" min="0.00" max="10000.00" step="1.00" /></div>
+                <label class="w100" for="custom_amount">Or enter a gift amount:</label>
+                <div><input class="form-control-input w100" type="number" min="0.00" max="10000.00" step="1.00" /></div>
               </div>
             </div>
             <div class="col-lg">
               <div class="form-group">
                 <div>Gift frequency:</div>
-                <div class="d-flex custom-radios w100 mt-3">
+                <div class="d-flex custom-radios freq w100 mt-3">
                   <div>
                     <input type="radio" id="One-time" checked class="form-input-btn" name="frequency" value="One-time" />
                     <label for="One-time">
