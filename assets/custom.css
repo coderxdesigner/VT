@@ -76,10 +76,19 @@ body {
   top: 2px;
   left: 10px;
   width: 20px;
-  padding-top: 5px;
+  padding-top: 6px;
   position: absolute;
 }
-
+/* CUSTOM ERROR */
+#error {
+  display: none;
+}
+#error.active {
+  display: block;
+  color: #fff;
+  padding: 5px;
+  background-color: var(--vt-maroon);
+}
 /*CUSTOM SUBMIT BUTTON*/
 .sign-up-btn {
   display: block;
